@@ -1,4 +1,4 @@
-public class CriaConta {//arquivo CriarConta.java /** Criandoumobjeto do tipo conta */
+class CriaConta {//arquivo CriarConta.java /** Criandoumobjeto do tipo conta */
   public static void main (String [] args){
     Conta conta1 =new Conta(); //criando um objeto
     conta1.numero="21.342-7"; //referencia a atributos

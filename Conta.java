@@ -1,4 +1,4 @@
-class Conta {
+class Conta { //arquivo Conta.java
     String numero;
     double saldo;
     void credito (double valor){
@@ -8,5 +8,4 @@ class Conta {
 void debito(double valor){
     saldo = saldo - valor;
     }
-}
-
+}//fim da classe conta
