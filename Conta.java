@@ -18,7 +18,7 @@
 
 public class Conta {
     private String nro;
-    private double saldo;
+    double saldo;
     public Conta (String nro, double saldo){
         this.nro = nro;
         this.saldo = saldo;
