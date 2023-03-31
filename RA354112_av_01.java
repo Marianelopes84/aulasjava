@@ -22,7 +22,7 @@ public class RA354112_av_01 {
     }
     System.out.println();
 }
-        // Recebe o valor de x
+    
     System.out.println("Digite o valor de x:");
     x = scanner.nextInt();
 
