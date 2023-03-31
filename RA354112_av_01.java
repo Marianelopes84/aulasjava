@@ -8,14 +8,14 @@ public class RA354112_av_01 {
         Scanner scanner = new Scanner(System.in);
 
         // Recebe os valores da matriz A
-        System.out.println("Digite os valores da matriz A:");
+        System.out.println("Digite os valores da matriz 5x5 A:");
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
                 A[i][j] = scanner.nextInt();
             }
         }
     // Exibe a matriz A
-    System.out.println("Matriz A:");
+        System.out.println("Matriz A:");
         for (int i = 0; i < 5; i++) {
             for (int j = 0; j < 5; j++) {
         System.out.print(A[i][j] + " ");
@@ -23,8 +23,8 @@ public class RA354112_av_01 {
     System.out.println();
 }
         // Recebe o valor de x
-        System.out.println("Digite o valor de x:");
-        x = scanner.nextInt();
+    System.out.println("Digite o valor de x:");
+    x = scanner.nextInt();
 
         // Multiplica o valor da matriz A por x, caso o valor seja semelhante a x, e copia o valor para B caso contrário
         for (int i = 0; i < 5; i++) {
