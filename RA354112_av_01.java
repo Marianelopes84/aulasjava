@@ -15,9 +15,9 @@ public class RA354112_av_01 {
             }
         }
     // Exibe a matriz A
-System.out.println("Matriz A:");
-for (int i = 0; i < 5; i++) {
-    for (int j = 0; j < 5; j++) {
+    System.out.println("Matriz A:");
+        for (int i = 0; i < 5; i++) {
+            for (int j = 0; j < 5; j++) {
         System.out.print(A[i][j] + " ");
     }
     System.out.println();
