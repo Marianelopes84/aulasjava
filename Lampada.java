@@ -33,8 +33,8 @@ public void acender(){
     System.out.println("Acendendo Lampada");
     this.acesa = true;
 }
-@Override
-public String toString(){
-    return "Lampada[potencia=" + potencia +", tipo" + tipo +", acesa=" + acesa + "]";
-}
+    @Override
+    public String toString(){
+        return "Lampada[potencia=" + potencia +", tipo" + tipo +", acesa=" + acesa + "]";
+    }
 }
