@@ -3,6 +3,7 @@ public class Lampada
     private int potencia;
     private String tipo;
     private boolean acesa;
+    
     public Lampada (String tipo){
         this.tipo = tipo;
     }
