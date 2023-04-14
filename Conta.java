@@ -14,9 +14,9 @@
     saldo = saldo - valor;
     }
 }//fim da classe conta
-**/
 
-public class Conta {
+
+ public class Conta {
     private String nro;
     double saldo;
     public Conta (String nro, double saldo){
@@ -37,4 +37,21 @@ public class Conta {
         return this.saldo;
     }
 }
+**/
+public class Conta {
+    String numero;
+    double saldo;
 
+    public Conta () { /*Construtor sem código */ }     
+
+    public Conta (String nro, double saldoInicial) {
+        numero = nro;
+        saldo = saldoInicial;
+    }
+    void credito (double valor) {
+        saldo = saldo + valor;
+    }
+    void debito (double valor) {
+        saldo = saldo - valor;
+    }
+}
