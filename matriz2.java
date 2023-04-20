@@ -9,6 +9,8 @@ public class matriz2 {
                 A[i][j] = scanner.nextInt();
             }
         }
+        
+        System.out.println(A);
         System.out.println("Digite um valor inteiro para verificar se é par ou ímpar:");
         int x = scanner.nextInt();
         System.out.println("Valores da matriz A semelhantes a " + x + " (" + (x % 2 == 0 ? "par" : "ímpar") + "):");

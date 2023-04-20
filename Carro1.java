@@ -9,7 +9,7 @@ public class Carro1 {
         this.nome = nome;
         this.marca = marca;
         this.ano = ano;
-        this.velocidade = 0;
+        this.velocidade = 60;
     }
 
     public void acelerar(int velocidade) {
