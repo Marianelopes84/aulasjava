@@ -30,6 +30,7 @@ public static void main(String[] args) {
         printMatrix(B);
         System.out.println("Matriz C (A + B):");
         printMatrix(C);
+    scanner.close();
     }
  // Método auxiliar para imprimir uma matriz
 private static void printMatrix(int[][] matrix) {
@@ -41,5 +42,6 @@ private static void printMatrix(int[][] matrix) {
     System.out.println();
     }
     System.out.println();
+    
     }
-}
+    }

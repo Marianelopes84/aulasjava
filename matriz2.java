@@ -21,5 +21,6 @@ public class matriz2 {
                 }
             }
         }
-    }
+    scanner.close();
+}
 }
