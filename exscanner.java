@@ -22,5 +22,6 @@ public class exscanner
         System.out.println("Nome:" + nome);
         System.out.println("Tel:" + telefone);
         System.out.println("Rua:"+ rua  + " Numero:" + numero);
+        scan1.close();
     }
 }
