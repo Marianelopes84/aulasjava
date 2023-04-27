@@ -1,7 +1,7 @@
-package Televisao;
+package TeleControl;
 
 public class Televisao {
-    
+
     int volume;
     int canal;
 
@@ -15,7 +15,7 @@ public class Televisao {
         setcanal(canal);
         setvolume(volume);
     }
-    
+
     public void setvolume(int volume){
         if((volume < 1) || (volume > 100)){
              this.volume = 1;
@@ -63,6 +63,6 @@ public class Televisao {
     {
         setcanal(getcanal() - 1);
     }
-    
+
 
 }

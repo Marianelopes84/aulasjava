@@ -1,7 +1,7 @@
-package Televisao;
+package TeleControl;
 
 public class ControleRemoto {
-    
+
     private Televisao televisao;
     public ControleRemoto()
     {
@@ -48,5 +48,3 @@ public class ControleRemoto {
         System.out.println("Canal: "+ getCanal());
     }
 
-
-}
