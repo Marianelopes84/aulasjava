@@ -1,5 +1,4 @@
 package TeleControl;
-
 public class ControleRemoto {
 
     private Televisao televisao;
