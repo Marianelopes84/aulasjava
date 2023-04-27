@@ -47,4 +47,6 @@ public class ControleRemoto {
     {
         System.out.println("Canal: "+ getCanal());
     }
+}
+
 
