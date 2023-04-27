@@ -7,8 +7,8 @@ public class Televisao {
     int canal;
 
     public Televisao(){
-        this.setcanal(0);
-        this.setvolume(0);
+        this.setcanal(10);
+        this.setvolume(5);
     }
 
     public Televisao(int canal, int volume)
