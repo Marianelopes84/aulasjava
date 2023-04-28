@@ -1,6 +1,6 @@
 package RA354112_av_02;
 
-class Pessoa {
+public class Pessoa {
     private String nome;
     private String dataNascimento;
     private double altura;
