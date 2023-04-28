@@ -1,3 +1,4 @@
+package Lampada;
 public class Interruptor {
     private Lampada conectada;
     private boolean ligado;

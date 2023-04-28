@@ -1,3 +1,4 @@
+package Lampada;
 public class Lampada
 {
     private int potencia;
