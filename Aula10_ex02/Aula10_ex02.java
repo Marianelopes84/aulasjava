@@ -14,6 +14,7 @@ public class Aula10_ex02 {
 			System.out.print("Digite a sua altura: ");
 			float altura = console.nextFloat();
 			p.setaltura(altura);
+			console.close();
 		}
         p.exibedados();
 
