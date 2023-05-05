@@ -3,15 +3,17 @@ package Netflix;
 import java.util.Random;
 
 public class Netflix {
-
+    
     private int codID;
     private String nomeFilme;
     private String catFilme;
     private String[] atores;
     private String anoFilme;
     Random r = new Random();
+    
 
     public Netflix() {
+
         this.codID = r.nextInt(9999);
         this.nomeFilme = "";
         this.catFilme = "";
@@ -43,4 +45,5 @@ public class Netflix {
         this.anoFilme = anoFilme;
     }
 
+    
 }

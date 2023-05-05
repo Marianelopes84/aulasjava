@@ -1,5 +1,6 @@
 package Netflix;
 
+
 public class Filme {
 
     public String nomeFilme;
@@ -25,3 +26,4 @@ public class Filme {
     public String getCatFilme() {
         return this.catFilme;
     }
+}

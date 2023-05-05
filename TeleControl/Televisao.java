@@ -27,11 +27,11 @@ public class Televisao {
     {
         return this.canal;
     }
-    public void Televisao(){
+    public void Televisao1(){
         this.setcanal(0);
         this.setvolume(0);
     }
-    public void Televisao(int canal, int volume)
+    public void Televisao1(int canal, int volume)
     {
         setcanal(canal);
         setvolume(volume);
