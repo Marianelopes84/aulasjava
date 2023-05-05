@@ -1,4 +1,4 @@
-package Netflix;
+package netflix;
 
 
 public class Filme {
