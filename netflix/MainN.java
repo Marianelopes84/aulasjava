@@ -16,6 +16,13 @@ public class MainN {
         netflix2.setanoLancamento("1990");
         netflix2.setAtores(new String[]{"Macaulay Culkin", "Joe Pesci", "Daniel Stern", "John Heard", "Catherine O'Hara", "Angela Goethals", "Devin Ratray", "Gerry Bamman", "Hillary Wolf", "John Candy"});
         
+        Filme filme3 = new Filme("Legalmente Loira", "Comédia");
+        Netflix netflix3 = new Netflix();
+        netflix3.setNomeFilme(filme3.getNomeFilme());
+        netflix3.setCatFilme(filme3.getCatFilme());
+        netflix3.setanoLancamento("2001");
+        netflix3.setAtores(new String[]{"Reese Witherspoon", "Luke Wilson", "Selma Blair", "Matthew Davis", "Victor Garber", "Jennifer Coolidge", "Holland Taylor"});
+   
         System.out.println("Filme 1:");
         System.out.println("Código do filme: " + netflix1.getCodID());
         System.out.println("Nome do filme: " + netflix1.getNomeFilme());
@@ -35,5 +42,15 @@ public class MainN {
         for (String ator : netflix2.getAtores()) {
             System.out.println("- " + ator);
         }
+        System.out.println("\nFilme 3:");
+        System.out.println("Código do filme: " + netflix3.getCodID());
+        System.out.println("Nome do filme: " + netflix3.getNomeFilme());
+        System.out.println("Categoria do filme: " + netflix3.getCatFilme());
+        System.out.println("Ano do filme: " + netflix3.getanoLancamento());
+        System.out.println("Atores principais: ");
+        for (String ator : netflix3.getAtores()) {
+            System.out.println("- " + ator);
+        }
+        
     }
 }
