@@ -1,9 +1,9 @@
 package AulaAgenda;
-public class Agenda11 {
+public class Agenda1 {
     private NovaPessoa11[] pessoas;
     private int contador;
 
-    public Agenda11() {
+    public Agenda1() {
         this.pessoas = new NovaPessoa11[10];
         this.contador = 0;
     }
