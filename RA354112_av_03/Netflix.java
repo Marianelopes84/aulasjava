@@ -1,4 +1,4 @@
-package netflix;
+package RA354112_av_03;
 
 import java.util.Random;
 
