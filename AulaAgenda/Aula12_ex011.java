@@ -1,9 +1,9 @@
 package AulaAgenda;
 import java.util.Scanner;
-public class Aula12_ex01 {
+public class Aula12_ex011 {
     public static void main(String[] args) {
 
-        Agenda1 agenda = new Agenda1();
+        Agenda11 agenda = new Agenda11();
 
         for (int i=0; i <= 10; i++){
             try (Scanner console1 = new Scanner(System.in)) {

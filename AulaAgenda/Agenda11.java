@@ -1,16 +1,16 @@
 package AulaAgenda;
-public class Agenda1 {
-    private NovaPessoa[] pessoas;
+public class Agenda11 {
+    private NovaPessoa11[] pessoas;
     private int contador;
 
-    public Agenda1() {
-        this.pessoas = new NovaPessoa[10];
+    public Agenda11() {
+        this.pessoas = new NovaPessoa11[10];
         this.contador = 0;
     }
 
     public void armazenaPessoa(String nome, int idade, float altura) {
         if (contador < 10) {
-            NovaPessoa p = new NovaPessoa(nome, idade, altura);
+            NovaPessoa11 p = new NovaPessoa11(nome, idade, altura);
             pessoas[contador] = p;
             contador++;
         } else {
