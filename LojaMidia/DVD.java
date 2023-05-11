@@ -7,7 +7,7 @@ public class DVD extends Midia
 
  // Construtor sem parâmetros.
  public DVD()
- { this(0,0.0,"Nenhum",0); // Chamada ao construtor com param. }
+ { this(0,0.0,"Nenhum",0);} // Chamada ao construtor com param. 
 
  // Construtor com parâmetros.
  public DVD(int codigo, double preco, String name, int nFaixas)
@@ -39,7 +39,7 @@ public class DVD extends Midia
  // Leitura dos dados do teclado.
  System.out.printf("\n Entre com o numero de faixas: ");
  int nfaix = in.nextInt();
-
+in.close();
  // Enviando os dados lidos para as funcoes set.
  setFaixas(nfaix);
  }
