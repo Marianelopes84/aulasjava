@@ -3,16 +3,16 @@ package Midia;
 import java.util.Random;
 
 
-public class DVD extends Midia {
+public class DVD1 extends Midia1 {
 
     private int nFaixas;
     Random r = new Random();
 
-    public DVD() {
+    public DVD1() {
         this.nFaixas = r.nextInt(20);
     }
 
-    public DVD(int codigo, double preco, String nome, int nFaixas) {
+    public DVD1(int codigo, double preco, String nome, int nFaixas) {
         super(codigo, preco, nome);
         this.nFaixas = nFaixas;
     }

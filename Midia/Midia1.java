@@ -3,7 +3,7 @@ package Midia;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Midia {
+public class Midia1 {
 
     private int codigo;
     private double preco;
@@ -11,13 +11,13 @@ public class Midia {
     Random r = new Random();
     Scanner scan = new Scanner(System.in);
 
-    public Midia() {
+    public Midia1() {
         this.codigo = r.nextInt(100);
         this.preco = r.nextDouble() * 100;
         this.nome = "";
     }
 
-    public Midia(int codigo, double preco, String nome) {
+    public Midia1(int codigo, double preco, String nome) {
         this.codigo = codigo;
         this.preco = preco;
         this.nome = nome;

@@ -3,17 +3,17 @@ package Midia;
 import java.util.Random;
 import java.util.Scanner;
 
-public class CD extends Midia {
+public class CD1 extends Midia1 {
 
     private int nMusicas;
     Random r = new Random();
     Scanner scan = new Scanner(System.in);
 
-    public CD() {
+    public CD1() {
         this.nMusicas = r.nextInt(100);
     }
 
-    public CD(int codigo, double preco, String nome, int nMusicas) {
+    public CD1(int codigo, double preco, String nome, int nMusicas) {
         super(codigo, preco, nome);
         this.nMusicas = nMusicas;
     }
