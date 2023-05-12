@@ -23,7 +23,7 @@ if (filmepeloId != null) {
 public static Filme buscaPeloId (ArrayList<Filme> filmes, int id){
 
     for (Filme Filme : filmes){
-        if (Filme.getId() == Id){
+        if (Filme.getId() == id){
             return Filme;
         }
     }
