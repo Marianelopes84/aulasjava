@@ -14,7 +14,7 @@ public class Main1
  for (int i=0; i < 2; i++)
  {
  // Usuário escolhe se quer cadastrar CD ou DVD.
- System.out.printf("Digite 1 para CD e 2 para DVD");
+ System.out.printf("Digite 1 para CD e 2 para DVD:");
  Scanner in = new Scanner(System.in);
  opcao = in.nextInt();
  if (1 == opcao) // Criar CD.

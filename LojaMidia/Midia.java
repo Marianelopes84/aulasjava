@@ -39,50 +39,49 @@ public class Midia
  setCodigo(codigo);
  setPreco(preco);
  setName(name);
+ } 
+ // Função para impressao dos dados do tipo.
+ public String getTipo()
+ {
+return "Midia: ";
  }
 
-  // Função para impressao dos dados do tipo.
-  public String getTipo()
-  {
- return "Midia: ";
-  }
- 
- 
-  // Função que retorna o conteúdo do campos em forma de String.
-  public String getDetalhes()
-  {
-  return "Codigo: " + getCodigo() + "\n" +
-  "Preco: " + getPreco() + "\n" +
-  "Nome: " + getName() + "\n";
-  }
- 
-  // Função para impressao dos dados via getDetalhes().
-  public void printDados()
-  {
- String s = getTipo() + "\n" + getDetalhes() + "\n";
-  System.out.println(s);
-  }
- 
-  // Função para leitura dos dados via teclado.
-  public void inserirDados()
-  {
-  Scanner in = new Scanner(System.in);
- 
-  // Leitura dos dados do teclado.
-  System.out.printf("\n Entre com o codigo: ");
-  int cod = in.nextInt();
-  System.out.printf("\n Entre com o preco: ");
-  double pre = in.nextDouble();
-  in.nextLine(); // Leitura do enter.
-  System.out.printf("\n Entre com o nome: ");
-  String nam = in.nextLine();
- 
-  // Enviando os dados lidos para as funcoes set.
-  setCodigo(cod);
-  setPreco(pre);
-  setName(nam);
-  in.close(); 
+
+ // Função que retorna o conteúdo do campos em forma de String.
+ public String getDetalhes()
+ {
+ return "Codigo: " + getCodigo() + "\n" +
+ "Preco: " + getPreco() + "\n" +
+ "Nome: " + getName() + "\n";
+ }
+
+ // Função para impressao dos dados via getDetalhes().
+ public void printDados()
+ {
+String s = getTipo() + "\n" + getDetalhes() + "\n";
+ System.out.println(s);
+ }
+
+ // Função para leitura dos dados via teclado.
+ public void inserirDados()
+ {
+ Scanner in = new Scanner(System.in);
+
+ // Leitura dos dados do teclado.
+ System.out.printf("\n Entre com o codigo: ");
+ int cod = in.nextInt();
+ System.out.printf("\n Entre com o preco: ");
+ double pre = in.nextDouble();
+ in.nextLine(); // Leitura do enter.
+ System.out.printf("\n Entre com o nome: ");
+ String nam = in.nextLine();
+
+ // Enviando os dados lidos para as funcoes set.
+ setCodigo(cod);
+ setPreco(pre);
+ setName(nam);
+in.close(); 
 }
- 
- 
- } // Fim Classe Mídia.
+
+
+} // Fim Classe Mídia.

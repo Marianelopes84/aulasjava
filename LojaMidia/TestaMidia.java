@@ -1,6 +1,6 @@
 package LojaMidia;
 
-import java.util.Scanner;
+import java.util.Random;
 public class TestaMidia
 {
  public static void main(String args[])
@@ -8,25 +8,48 @@ public class TestaMidia
  // Cria um vetor de elementos que são objetos da classe Midia.
  Midia[] lista = new Midia[10];
 
- int opcao;
+ // Cria um objeto da classe Random que funciona como gerador aleatório.
+ Random randomNumbers = new Random();
+ int aleat, codigo, nData;
+ double preco;
+ String nome;
 
- // Preenchendo o vetor com CDs.
- for (int i=0; i < 2; i++)
- {
- // Usuário escolhe se quer cadastrar CD ou DVD.
- System.out.printf("\n Digite 1 para CD e 2 para DVD");
- Scanner in = new Scanner(System.in);
- opcao = in.nextInt();
- if (1 == opcao) // Criar CD.
- lista[i] = new CD();
- else // Criar DVD.
- lista[i] = new DVD();
- lista[i].inserirDados(); // Inserir dados no objeto criado seja CD ou DVD.
- in.close();}
- // Imprimindo o conteudo de cada elemento do vetor de acordo com a
- // classe a que ele pertence (isto e, usando polimorfismo).
+ // Laço para inicializar.
+ for (int i=0, contc=0, contd=0; i < 2; i++)
+ { // Gera valores aleatorios para o construtor: valores {{0},{1}}.
+ aleat = randomNumbers.nextInt(2);
+
+ // Construir diferentes midias dependendo do sorteio.
+ if (0 == aleat)
+ { System.out.println("Criar um CD !");
+ // Valores [15,30].
+ preco = 15*randomNumbers.nextDouble() + 15;
+ // Nome gerado a partir do contador.
+ nome = "CD" + contc;
+ // Valores inteiros em [5,20].
+ nData = randomNumbers.nextInt(15) + 5;
+ // Construcao aleatoria do objeto CD.
+ lista[i] = new CD(contc,preco,nome,nData);
+ contc++;
+ }
+ else
+ { System.out.println("Criar um DVD !");
+ // Valores [20,50]
+ preco = 30*randomNumbers.nextDouble() + 20;
+ // Nome gerado a partir do contador.
+ nome = "DVD" + contd;
+ // Valores inteiros em [20,35].
+ nData = randomNumbers.nextInt(15) + 20;
+ // Construcao aleatoria do objeto DVD.
+ lista[i] = new DVD(contd,preco,nome,nData);
+ contd++;
+ }
+
+ }
+ // Imprimindo o conteúdo de cada elemento do vetor de acordo com
+ // a classe a que ele pertence (isto e, usando polimorfismo).
  for (int i=0; i < 2; i++)
  lista[i].printDados();
  }
 
-} // Fim classe TestaMidia.
+} // Fim Classe TestaMidia.
