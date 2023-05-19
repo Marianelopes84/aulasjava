@@ -21,12 +21,12 @@ public static void main(String args[])
  else // Criar DVD.
  lista[i] = new DVD();
  lista[i].inserirDados(); // Inserir dados no objeto criado seja CD ou DVD.
- in.close();} 
+ } 
  // Imprimindo o conteudo de cada elemento do vetor de acordo com a classe a que ele pertence (isto e, usando polimorfismo).
 
  for (int i=0; i < 2; i++)
  lista[i].printDados();
-
+ 
 }
 
 } // Fim classe TestaMidi

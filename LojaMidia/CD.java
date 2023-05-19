@@ -50,7 +50,7 @@ public void setMusica(int nmus)
         // Leitura dos dados do teclado.
         System.out.printf("\n Entre com o numero de musicas: ");
         int nmus = in.nextInt();
-        in.close();
+        
         // Enviando os dados lidos para as funcoes set.
         setMusica(nmus); 
     }
