@@ -1,7 +1,7 @@
 package Midia;
 
 import java.util.Random;
-import java.util.Scanner;
+
 
 public class Main1
 {
@@ -12,7 +12,7 @@ public class Main1
    
     // Cria um objeto da classe Random que funciona como gerador aleatório.
     Random randomNumbers = new Random();
-    int aleat, codigo, nData;
+    int aleat, nData;
     double preco;
     String nome;
    
@@ -54,4 +54,4 @@ public class Main1
     lista[i].printDados();
     }
    
-   } // Fim Classe TestaMidia.
+   } // Fim Classe TestaMidia
