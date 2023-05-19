@@ -46,7 +46,6 @@ public class Midia
 return "Midia: ";
  }
 
-
  // Função que retorna o conteúdo do campos em forma de String.
  public String getDetalhes()
  {
